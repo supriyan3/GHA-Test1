@@ -2,8 +2,8 @@ name: Dev-GHA-Test1
 on: 
   push
 jobs: 
-  dev-new-job:
-    runs-on: ubuntu-latest
-    steps: 
-      -name: message
-       run: echo "Welcome to GitHubactions"
+ dev-new-job:
+  runs-on: ubuntu-latest
+  steps: 
+    - name: message
+      run: echo "Welcome to GitHubactions"
